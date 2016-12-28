@@ -6,7 +6,7 @@ spring:
     config:
       server:
         git :
-          uri: https://github.com/karoonakar/Spring-cloud
+          uri: https://github.com/karoonakar/Spring-cloud-prd
 
 ---
 spring:  
@@ -17,4 +17,4 @@ server:
     config:
       server:
         git :
-          uri: https://github.com/karoonakar/Spring-cloud
+          uri: https://github.com/karoonakar/Spring-cloud-dev
