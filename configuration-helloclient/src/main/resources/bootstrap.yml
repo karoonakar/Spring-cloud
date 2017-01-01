@@ -3,7 +3,12 @@ server:
 
 spring:
   application:
-    name: hello-client
+    name: config-client
   cloud:
     config:
-      uri: http://localhost:8888
+      uri: http://localhost:${CONFIG_SERVER_PORT}
+      username: user
+      password: c91c4f9724e29dec371a8efa5e33b2a37e4c119486234d0a127e6d7816c0d7fa
+      
+encrypt:
+  key: ABCDEFGHIJKLMNOPqrstuvwxyzabcdef1234098765
