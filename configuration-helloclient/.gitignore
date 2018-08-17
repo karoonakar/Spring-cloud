@@ -10,3 +10,91 @@ release.properties
 .classpath
 .project
 .setting
+Module,Language,Exception,Message,CausedBy1,CausedBy1Msg,CausedBy2,CausedBy2Msg,Severity,Type
+R,ORACLE,,,,,,,Issue,zero byte file
+D,JAVA,java.lang.NullPointerException,,,,,,Issue,Development
+D,JAVA,,,,,,,Issue,Availibility
+D,JAVA,java.lang.ClassNotFoundException,,,,,,Issue,Configuration
+D,JAVA,java.lang.NumberFormatException,,,,,,Warning,Development
+D,JAVA,java.lang.ArithmeticException,,,,,,,
+D,JAVA,java.lang.ArrayStoreException,,,,,,,
+D,JAVA,java.lang.ClassCastException,,,,,,,
+D,JAVA,javax.xml.bind.DataBindingException,,,,,,,
+D,JAVA,java.time.DateTimeException,,,,,,,
+D,JAVA,java.util.EmptyStackException,,,,,,,
+D,JAVA,java.nio.file.FileSystemNotFoundException,,,,,,,
+D,JAVA,java.lang.IllegalArgumentException,,,,,,,
+D,JAVA,java.lang.NegativeArraySizeException,,,,,,,
+D,JAVA,org.xml.sax.SAXException,,,,,,,
+D,JAVA,org.hibernate.exception.ConstraintViolationException,,,,,,,
+D,JAVA,org.hibernate.exception.DataException,,,,,,,
+D,JAVA,org.hibernate.exception.DataException,,,,,,,
+D,JAVA,org.hibernate.exception.GenericJDBCException,,,,,,,
+D,JAVA,org.hibernate.exception.JDBCConnectionException,,,,,,,
+D,JAVA,org.hibernate.exception.LockAcquisitionException,,,,,,,
+D,JAVA,org.hibernate.exception.LockTimeoutException,,,,,,,
+D,JAVA,org.hibernate.exception.SQLGrammarException,,,,,,,
+D,JAVA,javax.xml.bind.JAXBException,,,,,,,
+D,JAVA,java.lang.RuntimeException,,,,,,,
+D,JAVA,javax.persistence.PersistenceException,could not perform addBatch,org.hibernate.exception.GenericJDBCException,could not perform addBatch,java.sql.BatchUpdateException,ORA-12899: value too large for column,Warning,Data quality
+D,JAVA,javax.persistence.PersistenceException,could not perform addBatch,org.hibernate.exception.DataException,could not perform addBatch,java.sql.BatchUpdateException,ORA-01438: value larger than specified precision,Warning,Data quality
+D,JAVA,javax.persistence.PersistenceException,could not perform addBatch,org.hibernate.exception.ConstraintViolationException,could not perform addBatch,java.sql.BatchUpdateException,ORA-01400: cannot insert NULL,Warning,Data quality
+D,JAVA,javax.persistence.PersistenceException,could not perform addBatch,org.hibernate.exception.LockAcquisitionException,could not perform addBatch,java.sql.BatchUpdateException,ORA-00060: deadlock detected while waiting for resource,Warning,Data quality
+D,JAVA,javax.persistence.PersistenceException,could not extract ResultSet,org.hibernate.exception.SQLGrammarException,could not extract ResultSet,java.sql.SQLSyntaxErrorException,ORA-01722: invalid number,Warning,Data quality
+D,JAVA,javax.persistence.PersistenceException,could not perform addBatch,org.hibernate.exception.ConstraintViolationException,could not perform addBatch,java.sql.BatchUpdateException,ORA-00001: unique constraint,Warning,Data quality
+R,JAVA,java.lang.IndexOutOfBoundsException,,,,,,Issue,Development
+D,JAVA,java.lang.IndexOutOfBoundsException,,,,,,Issue,Development
+D,JAVA,java.lang.OutOfMemoryError,Java heap space,,,,,Issue,Development
+D,JAVA,java.lang.OutOfMemoryError,GC Overhead limit exceeded,,,,,Issue,Development
+D,JAVA,java.lang.OutOfMemoryError,Requested array size exceeds VM limit,,,,,Issue,Development
+D,JAVA,java.lang.OutOfMemoryError,Metaspace,,,,,Issue,Development
+D,JAVA,java.lang.OutOfMemoryError,request size bytes for reason. Out of swap space,,,,,Issue,Development
+D,JAVA,java.lang.ArrayIndexOutOfBoundsException,,,,,,,
+D,JAVA,java.lang.ArrayStoreException,,,,,,,
+D,JAVA,java.nio.BufferOverflowException,,,,,,,
+D,JAVA,java.lang.ClassCastException,,,,,,,
+D,JAVA,javax.xml.bind.DataBindingException,,,,,,,
+D,JAVA,org.w3c.dom.DOMException,,,,,,,
+D,JAVA,java.util.EmptyStackException,,,,,,,
+D,JAVA,java.lang.EnumConstantNotPresentException,,,,,,,
+D,JAVA,java.nio.file.FileSystemAlreadyExistsException,,,,,,,
+D,JAVA,java.nio.file.FileSystemNotFoundException,,,,,,,
+D,JAVA,java.lang.IllegalArgumentException,,,,,,,
+D,JAVA,javax.management.JMRuntimeException,,,,,,,
+D,JAVA,org.w3c.dom.ls.LSException,,,,,,,
+D,JAVA,java.lang.Rlect.MalformedParameterizedTypeException,,,,,,,
+D,JAVA,javax.lang.model.type.MirroredTypesException,,,,,,,
+D,JAVA,java.util.MissingResourceException,,,,,,,
+D,JAVA,java.lang.NegativeArraySizeException,,,,,,,
+D,JAVA,java.lang.NegativeArraySizeException,,,,,,,
+D,JAVA,java.util.NoSuchElementException,,,,,,,
+D,JAVA,javax.xml.crypto.NoSuchMechanismException,,,,,,,
+D,JAVA,java.security.ProviderException,,,,,,,
+D,JAVA,java.nio.file.ProviderNotFoundException,,,,,,,
+D,JAVA,java.util.concurrent.RejectedExecutionException,,,,,,,
+D,JAVA,java.lang.SecurityException,,,,,,,
+D,JAVA,javax.xml.bind.TypeConstraintException,,,,,,,
+D,JAVA,java.lang.TypeNotPresentException,,,,,,,
+D,JAVA,java.lang.Rlect.UndeclaredThrowableException,,,,,,,
+D,JAVA,javax.lang.model.UnknownEntityException,,,,,,,
+D,JAVA,javax.print.attribute.UnmodifiableSetException,,,,,,,
+D,JAVA,java.lang.UnsupportedOperationException,,,,,,,
+D,JAVA,javax.xml.ws.WebServiceException,,,,,,,
+D,JAVA,java.io.FileNotFoundException,,,,,,,
+D,JAVA,java.io.IOException,,,,,,,
+D,JAVA,java.io.CharConversionException,,,,,,,
+D,JAVA,java.lang.InterruptedException,,,,,,,
+D,JAVA,java.lang.NoSuchMethodException,,,,,,,
+D,JAVA,java.lang.StringIndexOutOfBoundsException,,,,,,,
+D,JAVA,java.util.ConcurrentModificationException,,,,,,,
+D,JAVA,javax.persistence.PersistenceException,,javax.persistence.EntityExistsException,,,,,
+D,JAVA,javax.persistence.PersistenceException,,javax.persistence.EntityNotFoundException,,,,,
+D,JAVA,javax.persistence.PersistenceException,,javax.persistence.LockTimeoutException,,,,,
+D,JAVA,javax.persistence.PersistenceException,,javax.persistence.NonUniqueResultException,,,,,
+D,JAVA,javax.persistence.PersistenceException,,javax.persistence.NoResultException,,,,,
+D,JAVA,javax.persistence.PersistenceException,,javax.persistence.OptimisticLockException,,,,,
+D,JAVA,javax.persistence.PersistenceException,,javax.persistence.PessimisticLockException,,,,,
+D,JAVA,javax.persistence.PersistenceException,,javax.persistence.QueryTimeoutException,,,,,
+D,JAVA,javax.persistence.PersistenceException,,javax.persistence.RollbackException,,,,,
+D,JAVA,javax.persistence.PersistenceException,,javax.persistence.TransactionRequiredException,,,,,
+
